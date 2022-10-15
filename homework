@@ -1,0 +1,5 @@
+import numpy as np
+arr=np.array([[[2,1]],[[4,3]]])
+print(arr.ndim)
+print(np.sort(arr))
+print(np.where(arr==4))
